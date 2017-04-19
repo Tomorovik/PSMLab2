@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PSMLab2</string>
+    <string name="action_settings">Settings</string>
+    <string name="addPhone">Dodaj telefon</string>
+    <string name="removePhone">Usun telefon</string>
+    <string name="editPhone">Edytuj telefon</string>
+    <string name="producent">Producent</string>
+    <string name="model">Model</string>
+    <string name="androidVersion">Wersja androida</string>
+    <string name="website">WWW</string>
+    <string name="cancel">Anuluj</string>
+    <string name="save">Zapisz</string>
+    <string name="fill">Wypelnij wszystkie pola</string>
+</resources>

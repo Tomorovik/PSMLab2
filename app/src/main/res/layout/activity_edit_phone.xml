@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:padding="5dp"
+android:shrinkColumns="*"
+android:stretchColumns="2">
+
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/row1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/producent"
+        android:id="@+id/TVproducent" />
+
+    <EditText
+        android:layout_span="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ETproducent" />
+
+</TableRow>
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/row2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/model"
+        android:id="@+id/TVmodel" />
+
+    <EditText
+        android:layout_span="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ETmodel" />
+
+</TableRow>
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/row3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/androidVersion"
+        android:id="@+id/TVandroidVersion" />
+
+    <EditText
+        android:layout_span="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ETandroidVersion" />
+
+</TableRow>
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/row4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/website"
+        android:id="@+id/TVweb" />
+
+    <EditText
+        android:layout_span="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ETweb" />
+
+</TableRow>
+<TableRow
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/row5">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WWW"
+        android:id="@+id/BTNweb" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:id="@+id/BTNcancel" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:id="@+id/BTNsave" />
+</TableRow>
+</TableLayout>
